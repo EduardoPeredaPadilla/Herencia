@@ -33,7 +33,7 @@ public class Circulo implements calculosFormas {
 
     @Override
     public String toString() {
-        return "Circulo{" + "radio=" + radio + ", diametro=" + diametro + '}';
+        return "Circulo " + "Radio = " + radio + " Diametro = " + diametro;
     }
 
     @Override
@@ -46,7 +46,10 @@ public class Circulo implements calculosFormas {
 
     @Override
     public void calcularPerimetro() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
+        Double perimetro = pi * diametro;
+        System.out.println("El perímetro del circulo es = " + perimetro);
+        
     }
     
     

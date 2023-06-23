@@ -23,4 +23,9 @@ public class CirculoService {
         
     }
     
+    public void calcularPerimetroCirculo(Circulo circ) {
+        
+        circ.calcularPerimetro();
+    }
+    
 }
