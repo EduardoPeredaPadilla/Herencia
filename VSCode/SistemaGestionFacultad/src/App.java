@@ -35,7 +35,7 @@ public class App {
         }
 
         
-
+        System.out.println("");
 
         System.out.println("");
         System.out.println("--------------- LISTA DE PERSONAS (Después de correr métodos de reasignación) -------------");
